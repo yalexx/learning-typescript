@@ -1,5 +1,3 @@
-console.log('Hello');
-
 // Optional Static Types
 
 var counter; // (any) type

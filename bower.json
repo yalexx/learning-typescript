@@ -1,0 +1,21 @@
+{
+  "name": "learntypescript",
+  "description": "Learning Typescript Book tutorials",
+  "main": "index.js",
+  "authors": [
+    "Yanko Alexandrov"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Learn",
+    "Typescript"
+  ],
+  "homepage": "https://github.com/yalexx/learning-typescript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

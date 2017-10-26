@@ -1,0 +1,31 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "Learning Typescript Book tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yalexx/learning-typescript.git"
+  },
+  "keywords": [
+    "Learn",
+    "Typescript"
+  ],
+  "author": "Yanko Alexandrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yalexx/learning-typescript/issues"
+  },
+  "homepage": "https://github.com/yalexx/learning-typescript#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.34",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
