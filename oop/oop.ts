@@ -68,3 +68,49 @@ myDirector.sayKur();
 myDirector.getEmail();
 
 // Mixins
+
+function applyMixins(derivedCtor: any, baseCtors: any[]) {
+    baseCtors.forEach(baseCtor => {
+        Object.getOwnPropertyNames(baseCtor.prototype).forEach(name => {
+            if (name !== 'constructor') {
+                derivedCtor.prototype[name] = baseCtor.prototype[name];
+            }
+        });
+    });
+}
+
+class Animal {
+    eat() {
+    }
+}
+
+class Mammal1 extends Animal {
+    breathe() {
+
+    }
+}
+
+class WingedAnimal1 extends Animal {
+    fly() {
+    }
+}
+
+class Mammal extends Animal {
+    breathe(): string {
+        return "I'm alive!";
+    }
+
+    move(): string {
+        return "I can move like a mammal!";
+    }
+}
+
+class WingedAnimal extends Animal {
+    fly(): string {
+        return "I can fly!";
+    }
+
+    move(): string {
+        return "I can move like a bird!";
+    }
+}
